@@ -1,2 +1,0 @@
-# truper
-proyecto final
