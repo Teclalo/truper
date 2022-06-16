@@ -1,0 +1,197 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(truperfondo.jpg);
+}
+#contenedorprincipal{
+    width: 90%;
+    height: auto;
+    background-color: red;
+   margin: auto;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: #262626;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    background-color: #353535;
+}
+
+#nav ul li{
+    
+    list-style: none;
+}
+form{
+   
+}
+
+.con-productos{
+    width: 100%;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.productocaja{
+    width: 500px;
+    height:auto;
+   
+    margin-top: 20px;
+   display: flex;
+   background-color: #FF6600;
+  
+}
+
+.cja-pro{
+    width: 90%;
+    height: 250px;
+   
+    margin: 20px 20px;
+   display: flex;
+  
+    
+}
+.productocaja .text{
+    width: 50%;
+    height: auto;
+    background-color: #353535;
+    color: #ffffff;
+}
+.imagen{
+    display: flex;
+    align-items: center;
+}
+ .imagen img{
+    width: 250px;
+    height: 250px;
+
+   
+}
+ .text{
+ 
+ display: flex;
+ align-items: center;
+
+ justify-content: center;
+ padding: 20px;
+
+}
+
+
+#nav ul li ul{
+    
+  display: none;
+   
+    background-color: #262626;
+    position: absolute;
+  
+}
+
+#nav ul li:hover ul{
+    display: block;
+    
+}
+
+#nav ul li ul li a:hover{
+
+background-color: #222020;
+}
+
+
+#main{
+    width: 70%;
+    height: 700px;
+    background-color: rgb(42, 48, 54);
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 30%;
+    height: 700px;
+    background-color: #ffffff;
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(73, 71, 69);
+    float: left;
+}
+
+footer h2{
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(65, 68, 71);
+   
+}
+
+ul{
+   display: flex;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background: #FF6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ #nav a{
+display: inline-block;
+padding: 10px;
+margin-top: 20px;
+margin-left: 15px;
+
+font-size: 20px;
+color: aliceblue;
+text-decoration: none;
+
+
+ }
+
+ .articulo{
+     color: wheat;
+     padding: 10px;
+     margin: 10px;
+ }
+
+ section form {
+     display: block;
+ }
+form label{
+   display: block;
+   padding: 15px;
+   font-size: 30px;
+   color: rgb(31, 27, 27);
+ 
+
+ }
+ form input{
+  
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 20px;
+
+  }
